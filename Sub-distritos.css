@@ -1,0 +1,249 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Slab:wght@500&family=Montserrat&family=Open+Sans&family=Rubik&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background-color: #42270E;
+    width: 100%;
+    height: 79px;
+    display: flex;
+    
+}
+
+h2{
+    color: white;
+
+    width: 200px;
+    height: 40px;
+
+    font-family: 'Inter';
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+
+
+    margin-top: 25px;
+    margin-left: 10px;
+
+    font-family: 'Rubik', sans-serif;
+}
+
+.menu{
+    color: white;
+
+    font-family: 'Rubik', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+
+    display: flex;
+    align-items: flex-end;
+
+    text-align: right;
+    margin-bottom: 30px;
+    margin-left: 30px;
+}
+
+#Icon{
+    height: 47px;
+    width: 36px;
+    
+    margin-left: 26px;
+    margin-top: 12px;
+}
+
+.seta{
+    width: 9px;
+    height: 6px;
+
+    margin-bottom: 2px;
+    margin-left: 5px;
+}
+
+#barra{
+    background-color: white;
+    height: 50px;
+    width: 1px;
+    margin-top: 11px;
+}
+
+#um{
+    margin-left: 55vw;
+}
+
+#cont h2{
+    color: black;
+    text-align: center;
+    width: 100%;
+    height: 40px;
+    top: 36px;
+}
+
+#cont2{
+    color: black;
+    text-align: center;
+    top: 15px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#img-pinheiros{
+    margin-top: 36px;
+    height: 442px;
+    width: 100%;
+
+}
+
+#p-pinheiros{
+    position: absolute;
+    left: 70%;
+    top: 500px;
+
+    font-weight: 700;
+    font-size: 50px;
+
+    color: white;
+
+    font-family: 'Montserrat', sans-serif;
+}
+
+#img-alto{
+    margin-top: 21px;
+    height: 442px;
+    width: 100%;
+}
+
+#p-alto{
+    position: absolute;
+    left: 70%;
+    top: 970px;
+
+    font-weight: 700;
+    font-size: 50px;
+
+    color: white;
+
+    font-family: 'Montserrat', sans-serif;
+}
+
+#img-jaguaré{
+    margin-top: 21px;
+    height: 442px;
+    width: 100%;
+}
+
+#p-jaguaré{
+    position: absolute;
+    left: 5%;
+    top: 1250px;
+
+    font-weight: 700;
+    font-size: 50px;
+
+    color: white;
+
+    font-family: 'Montserrat', sans-serif;
+}
+
+#img-morumbi{
+    margin-top: 21px;
+    height: 442px;
+    width: 100%;
+}
+
+#p-morumbi{
+    position: absolute;
+    left: 70%;
+    top: 1910px;
+
+    font-weight: 700;
+    font-size: 50px;
+
+    color: white;
+
+    font-family: 'Montserrat', sans-serif;
+}
+
+#img-vila{
+    margin-top: 21px;
+    height: 442px;
+    width: 100%;
+}
+
+#p-vila{
+    position: absolute;
+    left: 70%;
+    top: 2380px;
+
+    font-weight: 700;
+    font-size: 50px;
+
+    color: white;
+
+    font-family: 'Montserrat', sans-serif;
+}
+
+#img-rio{
+    margin-top: 21px;
+    height: 442px;
+    width: 100%;
+}
+
+#p-rio{
+    position: absolute;
+    left: 70%;
+    top: 2850px;
+
+    font-weight: 700;
+    font-size: 50px;
+
+    color: white;
+
+    font-family: 'Montserrat', sans-serif;
+}
+
+#img-tavares{
+    margin-top: 21px;
+    height: 442px;
+    width: 100%;
+}
+
+#p-tavares{
+    position: absolute;
+    left: 5%;
+    top: 3100px;
+
+    font-weight: 700;
+    font-size: 50px;
+
+    color: white;
+
+    font-family: 'Montserrat', sans-serif;
+}
+
+footer{
+    background-color: #42270E;
+    height: 250px;
+}
+
+#footer{
+    color: white;
+
+    text-align: center;
+
+    padding-top: 20px;
+
+    font-size: 20px;
+}
+
+.class{
+    color: white;
+}
+
+.li{
+    list-style-type: none;
+    color: white;
+}
