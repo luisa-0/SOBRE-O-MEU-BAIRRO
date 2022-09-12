@@ -83,7 +83,7 @@ h2{
     font-family: 'Poly', serif;
 }
 
-#circle{
+.circle{
     border: solid 1px black;
     width: 55px;
     height: 55px;
@@ -92,7 +92,7 @@ h2{
     margin-top: 45px;
 }
 
-#texto{
+.texto{
     text-align: center;
     margin-top: 5px;
     font-family: 'Poly', serif;
@@ -123,10 +123,48 @@ h3{
 }
 
 #fazenda{
-    width: 480px;
-    height: 288px;
+    width: 380px;
+    height: 188px;
+
+    margin-left: 130px;
 }
 
 #janela div{
     display: inline-block;
+}
+
+.circle2{
+    border: solid 1px black;
+
+    width: 55px;
+    height: 55px;
+
+    border-radius: 50%;
+
+    margin-left: 15px;
+    margin-right: 110px;
+    margin-top: 45px;
+}
+
+.direita{
+    position: absolute;
+    right: 0;
+}
+
+#cont2{
+    margin-top: 25px;
+    
+    height: 100px;
+    width: 635px;
+
+    text-align: justify;
+
+    position: absolute;
+    right: 110px;
+    bottom: 0;
+
+}
+
+#janela2{
+    position: relative;
 }
