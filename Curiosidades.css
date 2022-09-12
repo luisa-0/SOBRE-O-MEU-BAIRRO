@@ -72,7 +72,7 @@ h2{
 }
 
 #um{
-    margin-left: 55vw;
+    margin-left: 50vw;
     font-weight: bold;
 }
 
@@ -109,4 +109,24 @@ h3{
     margin-left: 15px;
     margin-top: 50px;
     font-style: normal;
+}
+
+#cont1{
+    margin-top: 25px;
+    
+    height: 100px;
+    width: 635px;
+
+    text-align: justify;
+
+    margin-left: 55px;
+}
+
+#fazenda{
+    width: 480px;
+    height: 288px;
+}
+
+#janela div{
+    display: inline-block;
 }
