@@ -19,7 +19,6 @@ h2{
     width: 200px;
     height: 40px;
 
-    font-family: 'Inter';
     font-size: 20px;
     font-weight: 400;
     line-height: 24px;
@@ -94,8 +93,8 @@ h2{
 }
 
 #retangulo3{
-width: 500px;
-height: 400px;
+    width: 500px;
+    height: 400px;
 
     margin-top: 350px;
     margin-left: 211px;
@@ -150,10 +149,7 @@ img{
 }
 
 #simg{
-    width: 100%;
-    margin-left: 68px;
-    margin-top: 33px;
-    
+    width: 100%;   
 }
 
 
@@ -225,5 +221,174 @@ img{
 }
 
 .uniao{
+    display: inline-block;
+}
+
+#observação{
+    color: black;
+
+    text-align: center;
+
+    width: 100%;
+
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+
+
+    margin-top: 90px;
+
+    font-family: 'Rubik', sans-serif; 
+}
+
+#box1{
+    border: 1px solid black;
+
+    width: 35%;
+    height: 250px;
+
+    margin-top: 45px;
+    margin-left: 150px;
+
+    background: url(Imagens/SP.png) no-repeat;
+
+    border-radius: 20px;
+}
+
+#box1 h3{
+    color: white;
+    font-weight: bold;
+    text-align: center;
+
+    margin-top: 20px;
+
+    font-family: 'Poly', sans-serif;
+}
+
+#box1 p{
+    color: white;
+    font-weight: bold;
+    text-align: center;
+
+    width: 350px;
+
+    margin-top: 20px;
+    margin-left: 50px;
+
+    font-family: 'Poly', sans-serif;
+}
+
+#box2{    
+    border: 1px solid black;
+
+    width: 35%;
+    height: 250px;
+
+    margin-top: 50px;
+    margin-left: 50px;
+
+    background: url(Imagens/Festa\ do\ boi.png) no-repeat;
+
+    border-radius: 20px;
+}
+
+#box2 h3{
+    color: white;
+    font-weight: bold;
+    text-align: center;
+
+    margin-top: 20px;
+
+    font-family: 'Poly', sans-serif;
+}
+
+#box2 p{
+    color: white;
+    font-weight: bold;
+    text-align: center;
+
+    width: 350px;
+
+    margin-top: 20px;
+    margin-left: 50px;
+
+    font-family: 'Poly', sans-serif;
+}
+
+#box3{    
+        border: 1px solid black;
+    
+        width: 35%;
+        height: 250px;
+    
+        margin-top: 45px;
+        margin-left: 150px;
+    
+        background: url(Imagens/Casa\ sertanista.png) no-repeat;
+    
+        border-radius: 20px;
+}
+
+#box3 h3{
+    color: white;
+    font-weight: bold;
+    text-align: center;
+
+    margin-top: 20px;
+
+    font-family: 'Poly', sans-serif;
+}
+
+#box3 p{
+    color: white;
+    font-weight: bold;
+    text-align: center;
+
+    width: 350px;
+
+    margin-top: 20px;
+    margin-left: 50px;
+
+    font-family: 'Poly', sans-serif;
+}
+
+#box4{    
+    border: 1px solid black;
+
+    width: 35%;
+    height: 250px;
+
+    margin-top: 45px;
+    margin-left: 50px;
+
+    background: url(Imagens/Parque\ Pr.png) no-repeat;
+
+    border-radius: 20px;
+}
+
+#box4 h3{
+    color: white;
+    font-weight: bold;
+    text-align: center;
+
+    margin-top: 20px;
+
+    font-family: 'Poly', sans-serif;
+}
+
+#box4 p{
+    color: white;
+    font-weight: bold;
+    text-align: center;
+
+    width: 350px;
+
+    margin-top: 20px;
+    margin-left: 50px;
+
+    font-family: 'Poly', sans-serif;
+}
+
+#box div{
     display: inline-block;
 }
