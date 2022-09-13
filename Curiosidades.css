@@ -167,5 +167,11 @@ h3{
 }
 
 #janela2{
+    margin-top: 20px;
+
     position: relative;
+}
+
+#janela{
+    margin-top: 20px;
 }
