@@ -143,13 +143,14 @@ h2{
     height: 600px;
     position: absolute;
 }
+
 img{
     width: 100%;
     height: 100%;
 }
 
 #simg{
-    width: 100%;   
+    width: 100%;  
 }
 
 
@@ -220,7 +221,7 @@ img{
     margin-left: 5px;
 }
 
-.uniao{
+#retangulo3 div{
     display: inline-block;
 }
 

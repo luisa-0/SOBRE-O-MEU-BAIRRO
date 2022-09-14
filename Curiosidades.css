@@ -122,14 +122,22 @@ h3{
     margin-left: 55px;
 }
 
-#fazenda{
+.img1{
     width: 380px;
     height: 188px;
 
     margin-left: 130px;
 }
 
-#janela div{
+.img2{
+    width: 380px;
+    height: 188px;
+
+    margin-left: 130px;
+    margin-top: 60px;
+}
+
+.janela div{
     display: inline-block;
 }
 
@@ -166,12 +174,12 @@ h3{
 
 }
 
-#janela2{
+.janela2{
     margin-top: 20px;
 
     position: relative;
 }
 
-#janela{
+.janela{
     margin-top: 20px;
 }
