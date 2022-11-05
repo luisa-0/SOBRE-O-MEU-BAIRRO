@@ -71,7 +71,7 @@ h2{
 }
 
 #um{
-    margin-left: 50vw;
+    margin-left: 48vw;
     font-weight: bold;
 }
 
@@ -181,3 +181,104 @@ h3{
 .janela{
     margin-top: 20px;
 }
+
+.cor{
+    color: white;
+}
+
+.cor:hover{
+    color: #f77504;
+}
+
+
+
+footer{
+    background-color: #42270E;
+    height: 250px;
+    margin-top: 50px;
+}
+
+footer div{
+    display: inline-block;
+}
+
+
+
+#barra2{
+    background-color: white;
+    height: 170px;
+    width: 1px;
+    margin-top: 40px;
+    margin-left: 20px;
+}
+
+#pcoluna img{
+    margin-left: 22px;
+    
+}
+
+#pcoluna p{
+    height: 18px;
+    margin-left: 20px;
+    margin-top: 25px;
+    color: white;
+
+    font-family: 'Rubik';
+}
+
+#Icones{
+    margin-top: 50px;
+    margin-left: 20px;
+}
+
+#scoluna li{
+    list-style: none;
+    color: white;
+    margin-left: 50px;
+    font-family: "Rubik";
+    margin-bottom: 20px;
+}
+
+#scoluna li:hover{
+    color: #f77504;
+    text-decoration: underline;
+
+}
+
+.p{
+    font-weight: bold;
+}
+
+#tcoluna li{
+    list-style: none;
+    color: white;
+    margin-left: 80px;
+    font-family: "Rubik"; 
+    margin-bottom: 20px;
+}
+
+
+#qcoluna{
+    margin-left: 60px;
+    
+}
+
+#qcoluna p{
+    margin-bottom: 10px;
+    color: white;
+    font-family: "Rubik";
+    font-weight: bold;
+}
+
+#qcoluna img{
+    width: 25px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+a{
+    text-decoration: none;
+}
+
+
+

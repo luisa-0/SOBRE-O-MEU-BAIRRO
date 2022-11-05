@@ -10,6 +10,7 @@ header{
     width: 100%;
     height: 79px;
     display: flex;
+    
 }
 
 h2{
@@ -46,7 +47,7 @@ h2{
     margin-left: 30px;
 }
 
-.Icon{
+#Icon{
     height: 47px;
     width: 36px;
     
@@ -73,168 +74,118 @@ h2{
     margin-left: 48vw;
 }
 
-#cont h2{
-    color: black;
+#home{
+    font-weight: bold;
+}
+
+/* Header */
+
+
+.linha1, .linha2, .linha4, .linha5{
+    display: flex;
+    justify-content: space-between;
+}
+
+.linha1 #linha1{
+    margin-top: 70px;
+    margin-left: 70px;
+}
+
+
+#image-form{
+    width: 450px;
+    height: 250px;
+}
+
+#image-form img{
+    width: 100%;
+}
+
+.linha1 img{
+    width: 60%;
+
+}
+
+#título{
+    font-family: 'Rubik', sans-serif;
     text-align: center;
-    width: 100%;
-    height: 40px;
-    top: 36px;
+    margin-top: 25px;
 }
 
-#cont2{
+
+
+section h2{
+    margin-left: 350px;
     color: black;
-    text-align: center;
-    top: 15px;
-    font-family: 'Open Sans', sans-serif;
-}
-
-#img-pinheiros{
-    margin-top: 36px;
-    height: 442px;
+    font-family: 'Rubik' sans-serif;
     width: 100%;
-
+    margin-top: 40px;
 }
 
-#p-pinheiros{
-    position: absolute;
-    left: 70%;
-    top: 500px;
-
-    font-weight: 700;
-    font-size: 50px;
-
-    color: white;
-
-    font-family: 'Montserrat', sans-serif;
-}
-
-#img-alto{
-    margin-top: 21px;
-    height: 442px;
-    width: 100%;
-}
-
-#p-alto{
-    position: absolute;
-    left: 70%;
-    top: 970px;
-
-    font-weight: 700;
-    font-size: 50px;
-
-    color: white;
-
-    font-family: 'Montserrat', sans-serif;
-}
-
-#img-jaguaré{
-    margin-top: 21px;
-    height: 442px;
-    width: 100%;
-}
-
-#p-jaguaré{
-    position: absolute;
-    left: 5%;
-    top: 1250px;
-
-    font-weight: 700;
-    font-size: 50px;
-
-    color: white;
-
-    font-family: 'Montserrat', sans-serif;
-}
-
-#img-morumbi{
-    margin-top: 21px;
-    height: 442px;
-    width: 100%;
-}
-
-#p-morumbi{
-    position: absolute;
-    left: 70%;
-    top: 1910px;
-
-    font-weight: 700;
-    font-size: 50px;
-
-    color: white;
-
-    font-family: 'Montserrat', sans-serif;
-}
-
-#img-vila{
-    margin-top: 21px;
-    height: 442px;
-    width: 100%;
-}
-
-#p-vila{
-    position: absolute;
-    left: 70%;
-    top: 2380px;
-
-    font-weight: 700;
-    font-size: 50px;
-
-    color: white;
-
-    font-family: 'Montserrat', sans-serif;
-}
-
-#img-rio{
-    margin-top: 21px;
-    height: 442px;
-    width: 100%;
-}
-
-#p-rio{
-    position: absolute;
-    left: 70%;
-    top: 2850px;
-
-    font-weight: 700;
-    font-size: 50px;
-
-    color: white;
-
-    font-family: 'Montserrat', sans-serif;
-}
-
-#img-tavares{
-    margin-top: 21px;
-    height: 442px;
-    width: 100%;
-}
-
-#p-tavares{
-    position: absolute;
-    left: 5%;
-    top: 3100px;
-
-    font-weight: 700;
-    font-size: 50px;
-
-    color: white;
-
-    font-family: 'Montserrat', sans-serif;
-}
-
-#links{
+section p{
     color: black;
-
-    text-align: center;
-
-    padding-top: 20px;
-
-    font-size: 20px;
+    font-family:'Rubik', sans-serif;
+    margin-left: 290px;
 }
 
-a{
-    color: black;
-    text-decoration: none;
+form{
+    background-color: rgb(228, 228, 228);
+    width: 80%;
+    margin: auto;
+    margin-top: 25px;
+    font-family: 'RubiK', sans-serif;
+}
+
+form input{
+    display: block;
+    width: 395px;
+    height: 20px;
+    margin-bottom: 30px;
+}
+
+.linha2 div, .linha3 label, .linha4 label{
+    margin-top: 30px;
+    margin-left: 70px;
+}
+
+.linha2 #endereço{
+    padding-right: 50px;
+}
+
+.linha3 input{
+    width: calc(100% - 120px);
+    margin-left: 70px;
+    margin-right: 50px;
+    
+}
+
+.linha4 input{
+
+    margin-left: 70px;
+}
+
+#obs{
+    margin-left: 50px;
+}
+
+.linha4 #idade{
+    padding-right: 50px;
+}
+
+.linha5 #obs{
+    margin-left: 70px;
+    width: 395px;
+}
+
+div button{
+    margin-right: 150px;
+    margin-top: 50px;
+    border-radius: 30px;
+    width: 158px;
+    height: 30px;
+    background-color: #5C320C;
+    color: white;
+    border: solid 1px black;
 }
 
 .cor{
@@ -245,7 +196,9 @@ a{
     color: #f77504;
 }
 
-
+a{
+    text-decoration: none;
+}
 
 footer{
     background-color: #42270E;
@@ -330,4 +283,3 @@ footer div{
     margin-left: 10px;
     margin-bottom: 10px;
 }
-

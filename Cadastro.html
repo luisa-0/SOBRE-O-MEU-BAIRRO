@@ -4,14 +4,13 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Conheça mais</title>
-    <link rel="stylesheet" href="Sub-distritos.css">
+    <title>Cadastro</title>
+    <link rel="stylesheet" href="Cadastro.css">
 </head>
 <body>
     <header>
-    
         <div>
-                <img class="Icon" src="Imagens/Group.svg" alt="ícone de localização">
+                <img id="Icon" src="Imagens/Group.svg" alt="ícone de localização">
         </div>
 
         <h2> História do Butantã</h2>
@@ -19,7 +18,7 @@
         <div id="barra"></div>
 
         <div class="menu">
-            <a class="cor" href="Curisidades.html">
+            <a class="cor" href="Curiosidades.html">
                 <p id="um">Curiosidades</p>
             </a>
 
@@ -30,7 +29,7 @@
 
         <div class="menu">
             <a class="cor" href="Cadastro.html">
-                <p>Cadastro</p>
+                <p id="home">Cadastro</p>
             </a>
 
             <a class="cor" href="Cadastro.html">
@@ -42,66 +41,81 @@
             <a class="cor" href="index.html">
                 <p>Página Inicial</p>
             </a>
-            <a class="cor" href="index.html"><img class="seta" src="Imagens/Seta.png" alt="seta"></a>
+
+            <a class="cor" href="index.html">
+                <img class="seta" src="Imagens/Seta.png" alt="seta">
+            </a>
         </div>
     </header>
 
-    <div id="cont">
-        <h2>SUB-DISTRITOS</h2>
-        <p id="cont2">Situado na Zona Oeste do município, o Butantã faz divisa com outros bairros importantes de São Paulo, como: </p>
-    </div>
+    <section>
+    <h2>Quer ficar por dentro das novidades? Então faça já o nosso Cadastro!</h2>
 
-    <div imgs>
-        <div id="Pinheiros">
-            <img id="img-pinheiros" src="Imagens/Pinheiros.png" alt="Pinheiros">
-            <p id="p-pinheiros">PINHEIROS</p>
-        </div>
+    <p>Através dele você receberá emails sobre o bairro Butantã e ficará dentro dentros das suas novidades</p>
+    </section>
 
-        <div id="Alto-de-pinheiros">
-            <img id="img-alto" src="Imagens/Alto de Pinheiros.png" alt="Alto de Pinheiros">
-            <p id="p-alto">ALTO DE PINHEIROS</p>
-        </div>
+        <form action="#">
 
-        <div id="jaguaré">
-            <img id="img-jaguaré" src="Imagens/Jaguaré.png" alt="Jaguaré">
-            <p id="p-jaguaré">JAGUARÉ</p>
-        </div>
+            <section class="linha1">
+                <div id="linha1">
+                    <label for="Firstname"> Primeiro nome: </label> <br>
+                    <input type="text" name="Firstname" placeholder="Insira o seu nome" id="pnm">
+                    <br>
+                    <br>
+                    <label for="Sobrenome"> Sobrenome:</label> <br>
+                    <input type="text" name="Sobrenome" placeholder="Insira o seu Sobrenome" id="snm">
+                </div>
+                <div id="image-form">
+                    <img src="Imagens/Grupo imagens.png" alt="Imagens do Butantã">
+                </div>
+            </section>
 
-        <div id="morumbi">
-            <img id="img-morumbi" src="Imagens/Morumbi.png" alt="Morumbi">
-            <p id="p-morumbi">MORUMBI</p>
-        </div>
 
-        <div id="vila-sônia">
-            <img id="img-vila" src="Imagens/Vila Sônia.png" alt="Vila Sônia">
-            <p id="p-vila">VILA SÔNIA</p>
-        </div>
 
-        <div id="rio-pequeno">
-            <img id="img-rio" src="Imagens/Rio Pequeno (1).png" alt="Rio Pequeno">
-            <p id="p-rio">RIO PEQUENO</p>
-        </div>
+            <section class="linha2">
+                
+                <div>
+                    <label for="Nacionalidade"> Nacionalidade: </label> <br>
+                    <input type="text" placeholder="Onde você nasceu?" id="nacio">
+                </div>
+                <div id="endereço">
+                    <label for="Endereço"> Endereço: </label> <br>
+                    <input type="text" placeholder="Onde você mora?" id="end">
+                </div>
+            </section>
 
-        <div id="raposo-tavares">
-            <img id="img-tavares" src="Imagens/Raposo Tavares.png" alt="Raposo Tavares">
-            <p id="p-tavares">RAPOSO TAVARES</p>
-        </div>
-    </div>
+            
+            <section class="linha3">
+                <label for="email"> Email: </label> <br>
+                <input name="email" type="mail" placeholder="exemplo@gmail.com.br" id="email">
+            </section>
 
-    <div id="links">
-        <ul>Quer saber mais? Acesse os seguintes sites:</ul>
-        <a href="https://www.planoeplano.com.br/guia-de-bairros/zona-oeste/jardim-raposo-tavares">
-            <li class="li"> https://www.planoeplano.com.br/guia-de-bairros/zona-oeste/jardim-raposo-tavares</li>
-        </a>
-        <a href="https://www.chavesnamao.com.br/melhores-bairros/sp-sao-paulo/conheca-o-bairro-morumbi/">
-            <li class="li"> https://www.chavesnamao.com.br/melhores-bairros/sp-sao-paulo/conheca-o-bairro-morumbi/</li>
-        </a>
-        <a href="https://www.tegraincorporadora.com.br/sp/guia-de-bairro/pinheiros/">
-            <li class="li"> https://www.tegraincorporadora.com.br/sp/guia-de-bairro/pinheiros/</li>
-        </a>
-        <a href="http://www.tiberio.com.br/blog/cidades-e-bairros/vila-sonia-esta-entre-bairros-que-mais-se-desenvolvem-na-cidade">
-            <li class="li"> http://www.tiberio.com.br/blog/cidades-e-bairros/vila-sonia-esta-entre-bairros-que-mais-se-desenvolvem-na-cidade</li>
-        </a>
+            
+
+            <section class="linha4">
+                <div>
+                    <label for="telefone"> Telefone: </label> <br>
+                    <input name="telefone" type="tel" placeholder="+55 11 XXXXXX-XXXX" id="tel">
+                </div>
+
+                <div id="idade">
+                    <label for="idade"> Idade: </label> <br>
+                    <input name="idade" type="text" placeholder="Qual é a sua idade?" id="old">
+                </div>
+            </section>
+
+            
+            <section class="linha5">
+                <div>
+                    <label for="obs" id="obs"> Observação: </label> <br>
+                    <textarea name="obs" id="obs" placeholder="Alguma sugestão/reclamação?" cols="33" rows="5"></textarea>
+                </div>
+
+                <div>
+                    <button id="btn">Enviar</button>
+                </div>
+            </section>
+        </form>
     </div>
 
     <footer>
@@ -169,7 +183,5 @@
             </div>
         </div>
     </footer>
-    
-
 </body>
-</html> 
+</html>
